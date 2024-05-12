@@ -3,7 +3,7 @@ numpy
 nltk 
 werkzeug
 flask 
-tensorflow-cpu
+tensorFlow == 1.14.0
 keras
 itsdangerous
 jinja2
