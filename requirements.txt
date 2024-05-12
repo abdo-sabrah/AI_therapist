@@ -3,7 +3,7 @@ numpy
 nltk 
 werkzeug
 flask 
-tensorFlow == 2.5.3
+tensorflow==2.3.0
 keras
 itsdangerous
 jinja2
