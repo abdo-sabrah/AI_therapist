@@ -3,7 +3,7 @@ numpy
 nltk 
 werkzeug
 flask 
-tensorflow[and-cuda]
+tensorflow-cpu
 keras
 itsdangerous
 jinja2
