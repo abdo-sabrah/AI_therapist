@@ -90,7 +90,12 @@ def getResponse(ints, intents_json):
         return "I'm sorry, I didn't understand that."
 @app.route('/chatbot', methods=['POST'])
 def chatbot_response():
-    user_input = request.json['message']
+    
+    if request.json is None:
+        return jsonify({'error': 'No JSON data received'}), 400
+    
+    user_input = request.json.get('message')
+    
     ints = predict_class(user_input, model)
     res = getResponse(ints, intents)
     return jsonify({'response': res})
