@@ -3,6 +3,7 @@ numpy
 nltk 
 werkzeug
 flask 
-tensorflow-gpu
+tensorflow
+keras
 itsdangerous
 jinja2
