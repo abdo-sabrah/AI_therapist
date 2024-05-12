@@ -4,6 +4,5 @@ nltk
 werkzeug
 flask 
 tensorFlow == 2.5.3
-keras
 itsdangerous
 jinja2
