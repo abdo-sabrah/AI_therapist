@@ -24,6 +24,10 @@ import random
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return 'Welcome to my Flask app!'
+
 
 model = load_model('mental_chatbot_model_final.h5')
 
