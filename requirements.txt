@@ -3,6 +3,6 @@ numpy
 nltk 
 werkzeug
 flask 
-tensorflow 
+tensorflow-gpu==2.4.0 
 itsdangerous
 jinja2
