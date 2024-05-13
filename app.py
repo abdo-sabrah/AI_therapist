@@ -14,6 +14,7 @@ import pickle
 import json
 import os
 import random
+nltk.download (' WordNet ')
 nltk.download('punkt')
 
 # In[ ]:
