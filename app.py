@@ -14,7 +14,7 @@ import pickle
 import json
 import os
 import random
-
+nltk.download('punkt')
 
 # In[ ]:
 
