@@ -1,9 +1,9 @@
 gunicorn
+tensorflow
 numpy 
 nltk 
 werkzeug
 flask 
-tensorflow
 keras
 itsdangerous
 jinja2
